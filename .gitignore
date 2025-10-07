@@ -1,0 +1,238 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+.ipython/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# virtualenv
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Secret or credentials files
+secrets/
+credentials/
+*.pem
+*.key
+*.crt
+
+# Model weights and large model outputs
+model_output/
+ml_model/saved_models/
+ml_model/*.safetensors
+ml_model/*.pt
+ml_model/*.bin
+ml_model/*.ckpt
+
+# Data and dataset
+ml_model/dataset/
+backend/*.db
+
+# Logs
+logs/
+*.log
+
+# OneDrive/local sync artifacts
+~$*
+~*.tmp
+
+# Node
+node_modules/
+
+# Misc
+.DS_Store
+*.sublime-workspace
+*.sublime-project# =========================
+# General
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environments
+# =========================
+.env
+.env.*
+*.env
+venv/
+env/
+.venv/
+ENV/
+.Python
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# NLP and Data Files
+# =========================
+# Ignore large or local model files
+models/
+model_checkpoints/
+*.bin
+*.h5
+*.pkl
+*.pt
+*.ckpt
+*.joblib
+
+# Hugging Face / SpaCy / Transformers cache
+.cache/
+transformers_cache/
+spacy_models/
+nlp_data/
+tokenizers/
+
+# =========================
+# Local API / Server
+# =========================
+# Flask, FastAPI, Django, etc.
+instance/
+*.sqlite3
+*.db
+local_server/
+tmp/
+logs/
+*.pid
+
+# =========================
+# Jupyter / Notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb_out/
+
+# =========================
+# OS specific
+# =========================
+ehthumbs.db
+Icon?
+desktop.ini
